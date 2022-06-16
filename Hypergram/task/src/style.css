@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+#btn-upload {
+    position: relative;
+    padding: 11px 16px;
+    font-size: 85%;
+    border-radius: 3px;
+    border: 0;
+    background-color: deepskyblue;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    color: azure;
+    width: 15em;
+    height: 5em;
+}
+
+#btn-upload:hover {
+    background-color: dodgerblue;
+}
+
+#btn-upload input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(20);
+    opacity: 0;
+}
+
+#save-button {
+    font-size: 85%;
+    padding: 11px 16px;
+    border-radius: 3px;
+    border: 0;
+    background-color: deepskyblue;
+    transition-duration: 0.2s;
+    color: azure;
+    width: 15em;
+    height: 5em;
+}
+
+#save-button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+.content-box {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    padding: 2em;
+    opacity: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin: 25px;
+    width: 400px;
+    height: 87vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 2;
+    opacity: 90%;
+    backdrop-filter: blur(5px);
+    min-height: 700px;
+
+}
+
+#image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 77vw;
+    top: 2vh;
+    min-height: 700px;
+}
+
+#canvas {
+    position: absolute;
+    width: auto;
+    height: 85%;
+    z-index: 1;
+    background-color: white;
+}
+
+label {
+    font-size: 30px;
+}
+
+body {
+    background-color: dimgray;
+    padding: 0;
+}
